@@ -34,6 +34,8 @@
       const {
         createTheme,
         colors,
+        Typography,
+        Link,
         Container,
         Box,
         Avatar,
@@ -42,18 +44,34 @@
         Checkbox,
         Button,
         Grid,
-        Link,
-        Typography,
         ThemeProvider,
         CssBaseline,
       } = MaterialUI;
+
+      function Copyright(props) {
+        return (
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            align="center"
+            {...props}
+          >
+            {" © "}
+            {new Date().getFullYear()}{" "}
+            <Link color="inherit" href="https://github.com/yafiygi">
+              YAFIYGI
+            </Link>
+            {"."}
+          </Typography>
+        );
+      }
 
       // Create a theme instance.
       const theme = createTheme({
         palette: {},
       });
 
-      function App() {
+      function Login() {
         return (
           <Container maxWidth="sm">
             <Box
@@ -115,6 +133,7 @@
                 </Grid>
               </Box>
             </Box>
+            <Copyright sx={{ mt: 8, mb: 4 }} />
           </Container>
         );
       }
@@ -123,7 +142,7 @@
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <CssBaseline />
-          <App />
+          <Login />
         </ThemeProvider>,
         document.querySelector("#root")
       );
