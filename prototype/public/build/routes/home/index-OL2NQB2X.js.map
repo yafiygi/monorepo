@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/nilcy/yafiygi/monorepo/prototype/app/routes/home/index.tsx?browser", "../../../../app/routes/home/index.tsx"],
+  "sourcesContent": ["export { default } from \"/home/nilcy/yafiygi/monorepo/prototype/app/routes/home/index.tsx\";", "import type { LoaderFunction } from \"remix\";\nimport { useLoaderData, Link, useCatch } from \"remix\";\n\nexport default function HomeIndexRoute() {\n  return (\n    <div>\n      <p>Welcome to Home.</p>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAGe,0BAA0B;AACvC,SACE,oCAAC,OAAD,MACE,oCAAC,KAAD,MAAG;AAAA;",
+  "names": []
+}

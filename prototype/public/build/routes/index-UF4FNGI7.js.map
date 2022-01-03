@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/nilcy/codebase/prototype/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default } from \"/home/nilcy/codebase/prototype/app/routes/index.tsx\";", "import { Link } from \"remix\";\nexport default function Index() {\n  return (\n    <div className=\"container\">\n      <div className=\"content\">\n        <h1>\n          Remix <span>Jokes!</span>\n        </h1>\n        <nav>\n          <ul>\n            <li>\n              <Link to=\"jokes\">Read Jokes</Link>\n            </li>\n            <li>\n              <a href=\"https://github.com/remix-run/remix-jokes\">GitHub</a>\n            </li>\n            <li>\n              <Link reloadDocument to=\"/jokes.rss\">\n                RSS\n              </Link>\n            </li>\n          </ul>\n        </nav>\n      </div>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AACe,iBAAiB;AAC9B,SACE,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACb,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACb,oCAAC,MAAD,MAAI,UACI,oCAAC,QAAD,MAAM,YAEd,oCAAC,OAAD,MACE,oCAAC,MAAD,MACE,oCAAC,MAAD,MACE,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAQ,gBAEnB,oCAAC,MAAD,MACE,oCAAC,KAAD;AAAA,IAAG,MAAK;AAAA,KAA2C,YAErD,oCAAC,MAAD,MACE,oCAAC,MAAD;AAAA,IAAM,gBAAc;AAAA,IAAC,IAAG;AAAA,KAAa;AAAA;",
+  "names": []
+}

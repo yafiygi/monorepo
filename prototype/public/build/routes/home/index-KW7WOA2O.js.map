@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/nilcy/codebase/prototype/app/routes/home/index.tsx?browser", "../../../../app/routes/home/index.tsx"],
+  "sourcesContent": ["export { default } from \"/home/nilcy/codebase/prototype/app/routes/home/index.tsx\";", "import type { LoaderFunction } from \"remix\";\nimport { useLoaderData, Link, useCatch } from \"remix\";\nimport type { Joke } from \"@prisma/client\";\nimport { db } from \"~/utils/db.server\";\nimport { getUserId } from \"~/utils/session.server\";\n\nexport default function JokesIndexRoute() {\n  return (\n    <div>\n      <p>Welcome to Home.</p>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAMe,2BAA2B;AACxC,SACE,oCAAC,OAAD,MACE,oCAAC,KAAD,MAAG;AAAA;",
+  "names": []
+}

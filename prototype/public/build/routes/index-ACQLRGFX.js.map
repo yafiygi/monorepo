@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/home/nilcy/codebase/prototype/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default } from \"/home/nilcy/codebase/prototype/app/routes/index.tsx\";", "import { Link } from \"remix\";\nexport default function Index() {\n  return (\n    <div className=\"container\">\n      <div className=\"content\">\n        <h1>\n          UA4IUGI <span>Prototype!</span>\n        </h1>\n        <nav>\n          <ul>\n            <li>\n              <Link to=\"home\">Home</Link>\n            </li>\n          </ul>\n        </nav>\n      </div>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AACe,iBAAiB;AAC9B,SACE,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACb,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACb,oCAAC,MAAD,MAAI,YACM,oCAAC,QAAD,MAAM,gBAEhB,oCAAC,OAAD,MACE,oCAAC,MAAD,MACE,oCAAC,MAAD,MACE,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAO;AAAA;",
+  "names": []
+}
