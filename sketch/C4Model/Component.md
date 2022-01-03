@@ -1,4 +1,4 @@
-<!--  ToBeアーキテクチャ -->
+<!-- Component model -->
 
 ```plantuml
 @startuml
