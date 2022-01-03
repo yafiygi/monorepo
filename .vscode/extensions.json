@@ -6,6 +6,7 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "eamodio.gitlens",
-    "github.vscode-pull-request-github"
+    "github.vscode-pull-request-github",
+    "techer.open-in-browser"
   ]
 }
